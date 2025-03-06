@@ -58,11 +58,11 @@ cover/
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
-db.sqlite3-journal
+*db.sqlite3
+*db.sqlite3-journal
 
 # Flask stuff:
-instance/
+*instance/
 .webassets-cache
 
 # Scrapy stuff:
@@ -128,10 +128,10 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+*.env
 .venv
 env/
-venv/
+*venv/
 ENV/
 env.bak/
 venv.bak/
